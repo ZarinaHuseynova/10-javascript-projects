@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: "Poppins" ;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+button{
+    background-color: rgb(94, 221, 179);
+    color: azure;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-family: inherit;
+}
+.toast{
+    background-color: rgb(94, 221, 179);
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 1rem;
+    margin: 1rem;
+}
